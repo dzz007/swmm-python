@@ -61,7 +61,9 @@
     double *elapsedTime,
     double *value,
     double *result,
-    double *psi
+    double *psi,
+    double *geom,
+    double *capacity
 }
 
 

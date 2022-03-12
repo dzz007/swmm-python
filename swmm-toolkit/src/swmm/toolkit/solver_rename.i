@@ -71,11 +71,13 @@
 
 %rename(conduit_set_geom1)                  swmm_setConduitGeom1;
 %rename(conduit_set_geom2)                  swmm_setConduitGeom2;
-
+%rename(conduit_get_geom1)                  swmm_getConduitGeom1;
+%rename(conduit_get_geom2)                  swmm_getConduitGeom2;
 
 
 %rename(pump_get_stats)                     swmm_getPumpStats;
 %rename(pump_set_capacity)                  swmm_setPumpCapacity;
+%rename(pump_get_capacity)                  swmm_getPumpCapacity;
 
 
 %rename(subcatch_get_connection)            swmm_getSubcatchOutConnection;
