@@ -69,6 +69,11 @@
 %rename(link_get_stats)                     swmm_getLinkStats;
 
 
+%rename(conduit_set_geom1)                  swmm_setConduitGeom1;
+%rename(conduit_set_geom2)                  swmm_setConduitGeom2;
+
+
+
 %rename(pump_get_stats)                     swmm_getPumpStats;
 
 
