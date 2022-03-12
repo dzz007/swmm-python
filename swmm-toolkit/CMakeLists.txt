@@ -31,6 +31,7 @@ endif()
 
 
 # SWIG is a build requirement so needs to be installed first
+list(APPEND CMAKE_PREFIX_PATH "C:\\Users\\zhizhangdeng\\Desktop\\swigwin-4.0.2")
 find_package(SWIG REQUIRED)
 cmake_policy(SET CMP0078 NEW)
 cmake_policy(SET CMP0086 NEW)
