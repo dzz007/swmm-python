@@ -75,6 +75,7 @@
 
 
 %rename(pump_get_stats)                     swmm_getPumpStats;
+%rename(pump_set_capacity)                  swmm_setPumpCapacity;
 
 
 %rename(subcatch_get_connection)            swmm_getSubcatchOutConnection;
