@@ -50,6 +50,8 @@
 
 
 %rename(storage_get_stats)                  swmm_getStorageStats;
+%rename(storage_get_psi)                    swmm_getStoragePSI;
+%rename(storage_set_psi)                    swmm_setStoragePSI;
 
 
 %rename(outfall_set_stage)                  swmm_setOutfallStage;

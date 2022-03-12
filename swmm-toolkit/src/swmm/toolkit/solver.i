@@ -60,7 +60,8 @@
 %apply double *OUTPUT {
     double *elapsedTime,
     double *value,
-    double *result
+    double *result,
+    double *psi
 }
 
 
