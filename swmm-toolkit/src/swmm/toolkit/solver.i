@@ -63,7 +63,8 @@
     double *result,
     double *psi,
     double *geom,
-    double *capacity
+    double *capacity,
+    double *length
 }
 
 

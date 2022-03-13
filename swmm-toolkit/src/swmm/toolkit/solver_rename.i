@@ -73,6 +73,7 @@
 %rename(conduit_set_geom2)                  swmm_setConduitGeom2;
 %rename(conduit_get_geom1)                  swmm_getConduitGeom1;
 %rename(conduit_get_geom2)                  swmm_getConduitGeom2;
+%rename(conduit_get_length)                 swmm_getConduitLength;
 
 
 %rename(pump_get_stats)                     swmm_getPumpStats;
